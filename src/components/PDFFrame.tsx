@@ -19,7 +19,7 @@ export default function PDFFrame() {
                 Center PDF
             </button> */}
             <div className="h-screen" ref={frameRef}>
-                <iframe src="Devang Ray Resume.pdf" width="100%" height="100%"/>
+                <iframe src="Resume.pdf" width="100%" height="100%"/>
             </div>
         </>
     );
