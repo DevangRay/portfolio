@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { useRef } from "react";
 
 export default function PDFFrame() {
@@ -6,7 +6,7 @@ export default function PDFFrame() {
     const scrollToFrame = () => {
         if (frameRef.current) {
             frameRef.current.scrollIntoView({
-                behavior: 'smooth'
+                behavior: "smooth"
             });
         }
     };
@@ -19,7 +19,7 @@ export default function PDFFrame() {
                 Center PDF
             </button> */}
             <div className="h-screen" ref={frameRef}>
-                <iframe src='Devang Ray Resume.pdf' width="100%" height="100%"/>
+                <iframe src="Devang Ray Resume.pdf" width="100%" height="100%"/>
             </div>
         </>
     );

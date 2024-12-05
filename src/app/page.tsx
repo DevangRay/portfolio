@@ -17,7 +17,7 @@ export default function Home() {
         millions of people.
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a <Highlight>software engineer</Highlight> graduating from the University of Virginia. I'm currently 
+        I&apos;m a <Highlight>software engineer</Highlight> graduating from the University of Virginia. I&apos;m currently 
         a teaching assistant for <Highlight>Computer Systems and Organizations 1</Highlight> 
         (Covering Computer Architecture and low-level coding in x86-64 ISA and C) and{" "}
         <Highlight>Software Development Essentials</Highlight> (Covering the design, testing, and development of 
