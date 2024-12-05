@@ -1,5 +1,7 @@
 import { Sidebar } from "@/components/Sidebar";
 import "./globals.css";
+import { PHProvider } from "./providers";
+import dynamic from "next/dynamic";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { twMerge } from "tailwind-merge";
@@ -11,10 +13,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe - Developer",
+  title: "Devang Ray - Developer",
   description:
     "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
 };
+
+const PostHogPageView = dynamic(() => import('./PostHogPageView'), {
+  ssr: false,
+})
 
 export default function RootLayout({
   children,
@@ -23,20 +29,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={twMerge(
-          inter.className,
-          "flex antialiased h-screen overflow-hidden bg-gray-100"
-        )}
-      >
-        <Sidebar />
-        <div className="lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto">
-          <div className="flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto">
-            {children}
-            <Footer />
+      <PHProvider>
+        <body
+          className={twMerge(
+            inter.className,
+            "flex antialiased h-screen overflow-hidden bg-gray-100"
+          )}
+        >
+          <PostHogPageView />
+          <Sidebar />
+          <div className="lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto">
+            <div className="flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto">
+              {children}
+              <Footer />
+            </div>
           </div>
-        </div>
-      </body>
+        </body>
+      </PHProvider>
     </html>
   );
 }
