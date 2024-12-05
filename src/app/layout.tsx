@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Devang Ray - Developer",
+  title: "Devang Ray - Developer | Please Hire Me",
   description:
     "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
 };

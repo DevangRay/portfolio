@@ -12,22 +12,10 @@ export const TechStack = () => {
       className: "h-10 w-14",
     },
     {
-      title: "AWS",
-      src: "/images/logos/aws.webp",
+      title: "PostHog",
+      src: "/images/logos/posthog.png",
 
-      className: "h-10 w-10",
-    },
-    {
-      title: "Figma",
-      src: "/images/logos/figma.png",
-
-      className: "h-10 w-8",
-    },
-    {
-      title: "Framer Motion",
-      src: "/images/logos/framer.webp",
-
-      className: "h-10 w-10",
+      className: "h-10 w-14",
     },
     {
       title: "Node",
@@ -40,13 +28,7 @@ export const TechStack = () => {
       src: "/images/logos/tailwind.png",
 
       className: "h-10 w-24",
-    },
-    {
-      title: "Vercel",
-      src: "/images/logos/vercel.png",
-
-      className: "h-10 w-24",
-    },
+    }
   ];
   return (
     <div>
