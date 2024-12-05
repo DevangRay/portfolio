@@ -6,7 +6,7 @@ import rehypePrism from "@mapbox/rehype-prism";
 
 const nextConfig = {
   images: {
-    domains: ["images.unsplash.com", "res.cloudinary.com", "static.wikia.nocookie.net"],
+    domains: ["images.unsplash.com", "res.cloudinary.com", "media.licdn.com"],
   },
   experimental: {
     mdxRs: true,
