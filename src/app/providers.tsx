@@ -11,7 +11,11 @@ export function PHProvider({
 }) {
     useEffect(() => {
       posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
-        api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST,
+        //https://posthog.com/docs/advanced/proxy/nextjs
+        //setting up reverse proxy so doesnt get caught by tracking blockers
+        // api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST,
+        api_host: "/ingest",
+        ui_host: "https://us.posthog.com",
         person_profiles: 'identified_only',
         capture_pageview: false, // Disable automatic pageview capture, as we capture manually
         capture_pageleave: true, // Enable pageleave capture
