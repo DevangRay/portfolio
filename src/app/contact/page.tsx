@@ -10,7 +10,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Contact Me | Devang Ray",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Devang Ray is a developer and student at the University of Virginia.",
 };
 
 export default function Projects() {

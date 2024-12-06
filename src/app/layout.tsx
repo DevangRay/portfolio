@@ -15,7 +15,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Devang Ray - Developer | Please Hire Me",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Devang Ray is a developer and student at the University of Virginia.",
 };
 
 const PostHogPageView = dynamic(() => import('./PostHogPageView'), {

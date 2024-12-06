@@ -10,7 +10,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blogs | Devang Ray",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Devang Ray is a developer and student at the University of Virginia.",
 };
 
 export default async function Blog() {
