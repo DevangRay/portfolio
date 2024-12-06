@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Devang Ray - Developer | Please Hire Me",
+  title: "Devang Ray - Developer",
   description:
     "Devang Ray is a developer and student at the University of Virginia.",
 };
