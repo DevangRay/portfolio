@@ -24,7 +24,7 @@ const PostHogPageView = dynamic(() => import('./PostHogPageView'), {
 
 /*TO DO
 * dark mode
-* posthog session replay
+* posthog session replay -- DONE
 * know whats actually going on
 */
 export default function RootLayout({
