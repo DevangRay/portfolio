@@ -10,11 +10,12 @@ export function PHProvider({
   children: React.ReactNode
 }) {
     useEffect(() => {
+      console.log("NEXT KEY", process.env);
       console.log("running posthog.init")
-      posthog.init(process.env.NEXT_POSTHOG_KEY!, {
+      posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
         // https://posthog.com/docs/advanced/proxy/nextjs
         // setting up reverse proxy so doesnt get caught by tracking blockers
-        api_host: process.env.NEXT_POSTHOG_HOST,
+        api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST,
         // api_host: "/ingest",
         // ui_host: "https://us.posthog.com",
         person_profiles: 'identified_only',
