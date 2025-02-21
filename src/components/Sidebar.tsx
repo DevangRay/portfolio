@@ -108,7 +108,8 @@ const SidebarHeader = () => {
     <div className="flex space-x-2">
       <Image
         // src="https://static.wikia.nocookie.net/tardis/images/c/cf/The_Pandorica_Opens_poster.jpg/revision/latest?cb=20231008024731"
-        src="https://media.licdn.com/dms/image/v2/D4E03AQHPvmRJV5ykbA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719687131261?e=1738800000&v=beta&t=CEz3Bh-z9RUV6yMfN1p8gq15-7vzvGdetKayMbLnNIo"
+        src="https://media.licdn.com/dms/image/v2/D4E35AQFIqAV1pCamXA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1734985951638?e=1740783600&v=beta&t=lsW2KYStO4yrypnACUMBrK3OHt5ae08D4TRlnQiXDuk"
+        // src="/images/about/hiroshi_yoshida_temple.jpg"
         alt="Avatar"
         height="40"
         width="40"
