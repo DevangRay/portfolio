@@ -8,8 +8,30 @@ import sidefolioAcronymChatbot1 from "public/images/sidefolio-acronym-chatbot-1.
 import sidefolioAcronymChatbot2 from "public/images/sidefolio-acronym-chatbot-2.png";
 import sidefolioHoosBuying1 from "public/images/sidefolio-hoosbuying-1.png";
 import sidefolioHoosBuying2 from "public/images/sidefolio-hoosbuying-2.png";
+import sidefolioSentimentAnalyzer1 from "public/images/sidefolio-sentiment-analyzer-1.png";
+import sidefolioSentimentAnalyzer2 from "public/images/sidefolio-sentiment-analyzer-2.png";
+import sidefolioSentimentAnalyzer3 from "public/images/sidefolio-sentiment-analyzer-3.png";
 
 export const products = [
+  {
+    href: "https://github.com/DevangRay/FantasyFootballSentimentAnalyzer",
+    title: "Fantasy Football Sentiment Analyzer",
+    description:
+      "Fantasy Football Tool ",
+    thumbnail: sidefolioSentimentAnalyzer3,
+    images: [sidefolioSentimentAnalyzer3, sidefolioSentimentAnalyzer1, sidefolioSentimentAnalyzer2],
+    stack: ["NLI Deberta v3", "Flask", "Next.js"],
+    slug: "sentiment-analyzer",
+    content: (
+      <div>
+        <p>
+          Designed and implemented a full-stack fantasy football analytics tool, building a Next.js frontend with TypeScript and Tailwind CSS and a Flask API to interface with the backend.
+          Developed an end-to-end NLP pipeline to transcribe podcast audio, perform Named Entity Recognition and fuzzy matching to filter real NFL players, and analyzed sentiment using an entailment model.
+          Researched and integrated optimal ML models for entity extraction and sentiment classification, white optimizing the pipeline for performance.
+        </p>{" "}
+      </div>
+    ),
+  },
   {
     href: "https://github.com/DevangRay/Acronym-Chatbot",
     title: "Acronym ChatBot",
@@ -46,7 +68,7 @@ export const products = [
     content: (
       <div>
         <p>
-          HoosBuying is a platform designed to allow users to barter and trade belongings they no 
+          HoosBuying is a platform designed to allow users to barter and trade belongings they no
           longer have use for. I love using Facebook Marketplace, and appreciate the convenience it
           brings to me and other college students. As part of my Databases class, we were given the whole
           semester to design a product of our own, and I chose to create a platform similar to Facebook
@@ -54,7 +76,7 @@ export const products = [
         </p>
         <p>
           I worked with a partner to develop this application. Our Vue.js frontend interacted with our MySQL database
-          by calling on a RESTful API we developed using Flask. I am most proud of the security features we implemented, 
+          by calling on a RESTful API we developed using Flask. I am most proud of the security features we implemented,
           including username and password encryption, and manually developing sessions that would ensure the user would be
           logged out after 10 minutes of no use.
         </p>{" "}
