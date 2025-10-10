@@ -13,10 +13,10 @@ export default function Home() {
 
       <span className="text-4xl">💼</span>
       <Heading className="font-black">Resume</Heading>
-      <Paragraph className="max-w-xl mt-4">
+      {/* <Paragraph className="max-w-xl mt-4">
         I&apos;m a full-stack developer that loves <Highlight>building products</Highlight> and web apps that can impact
         millions of lives
-      </Paragraph>
+      </Paragraph> */}
       <PDFFrame/>
     </Container>
   );

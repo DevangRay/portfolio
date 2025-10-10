@@ -51,19 +51,12 @@ export default function About() {
           develop <Highlight>impactful solutions</Highlight> that can help people.
         </Paragraph>
         <Paragraph className=" mt-4">
-          After graduating in December last year, I&apos;m working as a <Highlight>Software Engineering Intern</Highlight>
-          at CargoLabs, a Charlottesville-based start-up that provides a streamlined platform for
-          trucker insurance. My internship runs from January of this year until June, and so far it
-          has been an amazing experience.
+          After graduating in December last year, I&apos;m now working as a <Highlight>Software Engineer</Highlight>
+          at Swift.
         </Paragraph>
-        <Paragraph className="mt-4">
-          Working in a start-up means that I have grown comfortable with not being afraid to take on
-          <Highlight>responsiblity</Highlight> to introduce and build new features from the ground-up as the company expands.
-          Along with improving my soft-skills, the <Highlight>fast-paced environment</Highlight> has meant that I have gained
-          hands-on experience with technologies I did not have the opportunity to work with at UVa.
-          Just one example, is that I have become much more experienced in building and maintaining
-          cloud environments as CargoLabs leverages AWS for its backend through services like S3,
-          Lambda, Cognito, Secrets Manager, etc.
+        <Paragraph className=" mt-4">
+          My most recent experience is serving as a lead developer for a customer-facing website designed to act as a centraized help resource for
+          customers, streamlining access to documentation and reducing avoidable support requests.
         </Paragraph>
         <Paragraph className="mt-4">
           Outside of work, I love travelling, baking, and getting outside as often as I can.
